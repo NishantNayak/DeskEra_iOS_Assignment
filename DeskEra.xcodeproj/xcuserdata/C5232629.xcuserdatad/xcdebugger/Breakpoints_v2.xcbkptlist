@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeskEra/SettingDetailsTableViewController.swift"
+            timestampString = "577647735.265788"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeskEra/Cells/ProfileTableViewCell.swift"
+            timestampString = "577705838.5614311"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "isValidJoininghDate(dojString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeskEra/ViewControllers/ItemsViewController.swift"
+            timestampString = "577705838.561524"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "handleSwipe(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeskEra.ItemsViewController.handleSwipe(sender: __C.UISwipeGestureRecognizer) -&gt; ()"
+                  moduleName = "DeskEra"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/C5232629/Desktop/DeskEra/DeskEra/ViewControllers/ItemsViewController.swift"
+                  timestampString = "577705838.750995"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "150">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeskEra.ItemsViewController.handleSwipe(sender: __C.UISwipeGestureRecognizer) -&gt; ()"
+                  moduleName = "DeskEra"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/C5232629/Desktop/DeskEra/DeskEra/ViewControllers/ItemsViewController.swift"
+                  timestampString = "577705838.755581"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeskEra.ItemsViewController.handleSwipe(sender: __C.UISwipeGestureRecognizer) -&gt; ()"
+                  moduleName = "DeskEra"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/C5232629/Desktop/DeskEra/DeskEra/ViewControllers/ItemsViewController.swift"
+                  timestampString = "577705838.765422"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "971">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
