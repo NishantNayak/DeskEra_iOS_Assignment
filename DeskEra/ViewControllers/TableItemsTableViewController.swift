@@ -32,6 +32,7 @@ class TableItemsTableViewController: UITableViewController,EditItemsDelegate, UI
     override func viewDidAppear(_ animated: Bool) {
         self.navigationItem.searchController?.isActive = true
         self.navigationItem.searchController?.obscuresBackgroundDuringPresentation = false
+        self.navigationItem.searchController?.hidesNavigationBarDuringPresentation = false
     }
     
     func parseJsonData(){
@@ -120,7 +121,10 @@ class TableItemsTableViewController: UITableViewController,EditItemsDelegate, UI
             let destination = segue.destination as! EditTableItemsViewController
             destination.delegate = self
             destination.indexValue = selectedIndex
-            let itemDict = fruitsArray[selectedIndex]
+            var itemDict = fruitsArray[selectedIndex]
+            if ((self.navigationItem.searchController?.searchBar.text!.count)! > 0){
+                itemDict = filteredArray[selectedIndex]
+            }
             if let name = itemDict["name"]{
                 destination.nameString = name
             }
